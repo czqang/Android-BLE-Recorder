@@ -1,0 +1,2 @@
+# BLE-Recorder
+BLE Recorder is an application developed targeting an audience of developers who are new to  Bluetooth Low Energy.   The application is mainly used to collect triaxial acceleration data from BLE devices. Users can observe the waveform of the received acceleration data in real time. The collected data can be recorded in a CSV file, and the system application can be called for file sharing.
