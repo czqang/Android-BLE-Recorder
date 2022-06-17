@@ -9,7 +9,7 @@ android {
         minSdkVersion 21
         targetSdkVersion 31
         versionCode getVersionCodeFromTags()
-        versionName getVersionNameFromTags()
+        versionName "1.0"
         resConfigs 'en'
 
         vectorDrawables.useSupportLibrary = true
@@ -30,7 +30,7 @@ android {
 
     buildTypes {
         debug {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
         release {
